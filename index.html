@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UIUX & Front-End Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="#" class="logo">UIUX  </a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#cv" class="nav-link">CV</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section id="home" class="home">
+        <div class="blob"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I’m Chamara </h1>
+            <p class="hero-desc">I design clean, user-centered digital experiences.</p>
+            <a href="#projects" class="btn">View Projects</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>UI/UX Designer passionate about creating intuitive digital experiences. I blend user psychology with pixel-perfect interfaces to help startups and brands boost engagement and conversions through research-driven design.</p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <h3>HTML/CSS/JS</h3>
+                <div class="skill-bar"><div class="skill-progress" data-width="90%"></div></div>
+            </div>
+            <div class="skill">
+                <h3>FIGMA , ADOBE XD , CANVA</h3>
+                <div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div>
+            </div>
+            <div class="skill">
+                <h3>C#</h3>
+                <div class="skill-bar"><div class="skill-progress" data-width="80%"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="cv-section">
+        <h2>My CV / Resume</h2>
+        <div class="cv-container">
+            <!-- Left: Profile + Download -->
+            <div class="cv-profile">
+                <div class="profile-img">
+                    <img src="chamara ariyarathne.jpeg" alt="Profile Photo" id="profileImg" class="clickable">
+                </div>
+                <div class="cv-download">
+                    <a href="#contact" class="btn btn-secondary">Hire Me</a>
+                    <a href="CHAMARA ARIYARATHNE.pdf" download class="btn" id="downloadCV">📄 Download CV (PDF)</a>
+                </div>
+            </div>
+
+            <!-- Right: CV Content -->
+            <div class="cv-content">
+                <!-- Personal Info -->
+                <div class="cv-card personal-info">
+                    <h3><i class="ri-user-line"></i> Personal Information</h3>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <span class="label">Full Name:</span>
+                            <span>CHAMARA ARIYARATHNE</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Email:</span>
+                            <span>chamaraariyarathne201@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Phone:</span>
+                            <span>+94 74 171 1086</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Location:</span>
+                            <span>Kandy, Central Province, Sri Lanka</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">LinkedIn:</span>
+                            <span><a href="https://www.linkedin.com/in/chamara-ariyarathne-3ab7ba2a6/"  target="_blank" >CHAMARA ARIYARATHNE</a></span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                
+                <!-- Education -->
+                <div class="cv-card">
+                    <h3><i class="ri-graduation-cap-line"></i> Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2022 - 2026</div>
+                            <div class="timeline-content">
+                                <h4>B.ICT Honours Degree</h4>
+                                <p>University of Vavuniya</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>        
+
+                <!-- Skills Summary -->
+                <div class="cv-card">
+                    <h3><i class="ri-bar-chart-line"></i> Key Skills</h3>
+                    <div class="skills-summary">
+                        <span class="skill-tag">HTML/CSS/JavaScript</span>
+                        <span class="skill-tag">Responsive Web Design</span>
+                        <span class="skill-tag">FIGMA , ADOBE XD AND CANVA </span>
+              
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <h2>Services</h2>
+        <div class="services-grid">
+            <div class="card">
+                <i class="ri-code-s-slash-line ri-3x"></i>
+                <h3>Front-End Developer</h3>
+                <p>Creating responsive and interactive websites using HTML, CSS, JavaScript, and modern front-end technologies.</p>
+            </div>
+
+            <div class="card">
+                <i class="ri-paint-brush-line ri-3x"></i>
+                <h3>UI/UX Designer</h3>
+                <p>Designing user-friendly interfaces and experiences with a strong focus on usability, accessibility, and visual design.</p>
+            </div>
+
+            <div class="card">
+                <i class="ri-database-2-line ri-3x"></i>
+                <h3>C# .NET (CRUD Operations)</h3>
+                <p>Developing database-driven applications using C# .NET with full CRUD operations (Create, Read, Update, Delete).</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="card">
+                <div class="project-img" style="background: #4510b9;"></div>
+                <h3>Weather-App-A-Simple-Interactive-Weather-Forecasting-Web-Application</h3>
+                <p>Developed a dynamic weather web application using HTML, CSS, and JavaScript, integrating real- time weather data via an API. The app provides users with current weather conditions, temperature, humidity, and forecasts based on their location or searched cities.<br><a href="https://github.com/chamaraariyarathne201-bot/Weather-App-A-Simple-Interactive-Weather-Forecasting-Web-Application.git">Project View</a></p>
+            </div>
+            <div class="card">
+                <div class="project-img" style="background: #10b981;"></div>
+                <h3>travel-Tourism-web-site-project-Front-end</h3>
+                <p>Developed a responsive website using HTML, CSS, JavaScript enabling trip bookings, package customization, user reviews, and real-time data management with an interactive gallery and mobile-friendly design. This project contains large files, so I have uploaded a Google Drive link with the project details.<br><a href=" https://drive.google.com/file/d/1UQ-2Pcr-DDgr_0yIAXyVIwPhnZj0eNMb/view">project View</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p><i class="ri-map-pin-line"></i> Kandy, Sri Lanka</p>
+                <p><i class="ri-phone-line"></i> +94 74 171 1086</p>
+                <p><i class="ri-mail-line"></i> chamaraariyarathne201@gmail.com</p>
+            </div>
+            <form id="contactForm">
+                <input type="text" name="from_name" placeholder="Your Name" required>
+                <input type="email" name="from_email" placeholder="Your Email" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; UI/UX Designer & ICT Undergraduate | 2026 Portfolio.</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
